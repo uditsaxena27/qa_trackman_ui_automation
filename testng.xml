@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Trackman Test Suite" parallel="false">
+    <test name="Trackman Tests">
+        <classes>
+            <class name="com.trackman.LoginTest"/>
+            <class name="com.trackman.HomeTest"/>
+            <class name="com.trackman.BrowseAllCoursesTest"/>
+            <class name="com.trackman.CreatePlannedRoundsTest"/>
+            <class name="com.trackman.FetchPlannedRoundTest"/>
+            <class name="com.trackman.GolfDetailsTest"/>
+            <class name="com.trackman.PlanVirtualGolfRoundTest"/>
+            <class name="com.trackman.EditPlannedRoundTest"/>
+            <class name="com.trackman.ResultGolfRoundTest"/>
+            <class name="com.trackman.DuplicatePlannedRoundTest"/>
+            <class name="com.trackman.DeletePlannedRoundTest"/>
+            <class name="com.trackman.SignUpTest"/>
+        </classes>
+    </test>
+</suite>
