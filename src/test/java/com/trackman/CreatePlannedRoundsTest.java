@@ -20,7 +20,7 @@ public class CreatePlannedRoundsTest extends BasePage {
     }
     @AfterClass
     public void tearDown() {
-        // This will clear cache and reset the driver for the next test class
+        // Clear cache and reset the driver for the next test class
         tearDownDriver();
     }
     @Test
